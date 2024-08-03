@@ -14,7 +14,7 @@ const LeaderboardManagement: React.FC = () => {
 
   return (
     <>
-      <div className="h-screen flex gap-6 items-center justify-center overflow-hidden">
+      <div className="h-screen flex gap-6 items-center justify-center overflow-hidden px-7">
         <button
           onClick={() => {
             setIsOpen(true);
