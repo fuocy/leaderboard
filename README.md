@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Leaderboard Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a web application that allows creators to design and customize dynamic leaderboards for various games. Users can view these leaderboards filled with dummy data, providing a seamless experience for both creators and players. The application leverages modern technologies such as React, TypeScript, TailwindCSS, Zustand, and more to deliver a responsive and user-friendly interface.
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+1. Leaderboard Creation: Creators can define custom leaderboards, specifying multiple metrics such as XP, Kills, Points, etc.
+   Dynamic Data: Leaderboards are populated with randomly generated dummy data for demonstration purposes.
+2. Responsive Design: The application is built using TailwindCSS for a sleek and modern UI that works well on various devices.
+3. Real-time Updates: Metrics can be added, edited, or deleted, and changes reflect immediately in the UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Frontend: React, TypeScript, TailwindCSS
+- State Management: Zustand
+  Routing: React Router DOM
+- Animation: Auto Animate
 
-### `npm test`
+# Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Creating a Leaderboard:
 
-### `npm run build`
+Click on the "Create Leaderboard" button.
+Enter the leaderboard name and define the metrics you want.
+Add metrics as needed and click "Create Leaderboard" to save it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Viewing a Leaderboard:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Click to the "View Leaderboards" button to see all created leaderboards populated with dummy data.
